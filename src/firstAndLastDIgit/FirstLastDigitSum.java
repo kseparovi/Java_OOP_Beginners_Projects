@@ -7,6 +7,7 @@ public class FirstLastDigitSum {
 
     public static int sumFirstAndLastDigit(int number) {
 
+
         int num = number;
         int lastDigit = 0;
         int firstDigit = 0;

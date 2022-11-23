@@ -1,12 +1,18 @@
 package SharedDigit;
 
+import java.util.Scanner;
+
 public class SharedDigit {
     public static void main(String[] args) {
-        System.out.println(isSharedDigit(22, 18 ));
+        System.out.println(isSharedDigit(89,88));
+
+
+
 
     }
 
     public static boolean isSharedDigit(int first, int second) {
+
 
         if ((first >= 10 && first <= 99) && (second >= 10 && second <= 99)) {
 
@@ -19,7 +25,6 @@ public class SharedDigit {
 
             return ((firstNumberFirstDigit == secondNumberFirstDigit) || (firstNumberFirstDigit == secondNumberLastDigit) || (firstNumberLastDigit == secondNumberFirstDigit) || (firstNumberLastDigit == secondNumberLastDigit));
         }
-
 
 
         return false;
